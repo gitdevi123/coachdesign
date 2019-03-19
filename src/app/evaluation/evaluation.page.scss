@@ -1,0 +1,272 @@
+ion-content {
+    --background: url(../../assets/imgs/background-login.png);
+    --background-size: contain;
+    --background-repeat: repeat;
+}
+
+.player-box {
+    background: #1F1F1F;
+    padding: 15px 0;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+    position: relative;
+}
+
+.player-box:before {
+
+    background: url(../../assets/imgs/selected-arrow.svg);
+    left: 0;
+    right: 0;
+    content: "";
+    margin: 0 auto;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: -14px;
+    background-repeat: no-repeat;
+}
+
+.player-box span {
+    width: 65px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.player-box span:first-child {
+    margin-left: 0;
+}
+
+.player-box ion-col {
+    color: #fff;
+    font-size: 11px;
+    font-family: 'RobotoRegular';
+}
+
+
+.player-box[scrollx=true],
+div[scrolly=true] {
+    position: relative;
+    overflow: hidden;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.player-box[scrollx=true] {
+    overflow-x: auto;
+}
+
+.player-box[scrolly=true] {
+    overflow-y: auto;
+}
+
+.player-box span img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.available-player img {
+    border: 5px solid #6DCCC1;
+}
+
+.selected-player img {
+    border: 5px solid #FF994B;
+}
+
+.unavailable-player img {
+    border: 5px solid #A5A5A5;
+}
+
+.rating-box {
+    float: left;
+    width: 100%;
+    background: #363636;
+    border-radius: 5px;
+    padding: 16px 20px 45px;
+}
+
+.rating-box h3 {
+    font-size: 16px;
+    color: #cecece;
+    font-family: "Khand";
+    font-weight: 500;
+    margin: 15px 0 5px 0;
+}
+
+.rating-box-upper {
+    float: left;
+    width: 100%;
+    padding: 16px;
+}
+
+.rating-box-inside {
+    float: left;
+    width: 100%;
+}
+
+.rating-box-inside span {
+    height: 10px;
+    float: left;
+    width: 20%;
+    background: #5a5a5a;
+    border-right: 1px solid #363636;
+}
+
+.rating-box-inside span.active {
+    background: #FF994B;
+}
+
+.rating-box-inner {
+    float: left;
+    width: 100%;
+    margin-top: 16px;
+}
+
+
+.rating-box-inner:first-child {
+    margin-top: 0;
+}
+
+.rating-wheel {
+    float: left;
+    width: 100%;
+    padding: 16px;
+}
+
+.rating-wheel img {
+    width: 100%;
+}
+
+.rating-wheel p {
+    float: left;
+    width: 100%;
+    color: #F4F4F4;
+    font-size: 11px;
+    font-family: 'RobotoRegular';
+    text-align: center;
+    line-height: 20px;
+}
+
+.submit-btn {
+    border: 1px solid #6DCCC1;
+    float: left;
+    width: 100%;
+    background: none;
+    border-radius: 5px;
+    height: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+}
+
+.save-as-draft-btn {
+    border: 1px solid #FF994B;
+    float: left;
+    width: 100%;
+    background: none;
+    border-radius: 5px;
+    height: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+}
+
+.eng-le {
+    float: left;
+    width: 100%;
+    padding:23px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.eng-le ion-label {
+    color: #FF994B;
+    font-size: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+
+    display: inline-block;
+}
+
+.eng-le-img {
+    display: inline-block;
+    width: auto;
+    margin-left: 25px;
+}
+
+.eng-le-img span {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.eng-le-img span span.inactive-eng-level {
+    width: 100%;
+    height: 100%;
+    background: #cecece;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-field {
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+    margin: 10px 0;
+    position: relative;
+
+}
+
+ion-textarea {
+    background: #363636;
+    border-radius: 5px;
+    padding: 10px;
+    --placeholder-color :#A5A5A5;
+    color:#fff; font-size: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+}
+
+.form-field span{ float: right; color: #5A5A5A; font-size: 11px; font-family: "Khand";
+    font-weight: 500;    margin-top: 5px; position: relative; }
+
+
+
+ion-input {
+    background: #363636;
+    --border-radius: 5px;
+    --placeholder-color :#A5A5A5;
+    color:#fff; font-size: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+    --padding-start: 10px !important; --padding-end: 10px !important;
+    border-radius: 5px;
+  
+
+}
+
+ion-input input{  border-radius: 5px; border:1px;}
+
+.form-field span.video-icon-show {
+    position: absolute;
+    right: 35px;
+    z-index: 2;
+    top: 16px;
+    margin: 0;
+}
+
+.form-field span.video-icon-show svg{ fill:#a5a5a5;}

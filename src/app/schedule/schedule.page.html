@@ -1,0 +1,834 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>SCHEDULE</ion-title>
+        <ion-buttons padding-end slot="end">
+
+            <img width="18" height="18" src="assets/imgs/notification-icon.svg" />
+
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content no-padding>
+    <div class="has-header">
+
+        <div ng-switch="categories">
+
+            <div ng-switch-when="schedule" style="display:none">
+                <div class="date-time-cal">
+
+                    <div class="date-time-cal-scroll" scrollX="true">
+                        <ion-row>
+                            <ion-col class="active">
+                                <span>MON</span>
+                                <br>
+                                14
+                            </ion-col>
+
+                            <ion-col>
+                                <span>TUE</span>
+                                <br>
+                                15
+                            </ion-col>
+                            <ion-col>
+                                <span>WED</span>
+                                <br>
+                                16
+                            </ion-col>
+
+                            <ion-col>
+                                <span>THU</span>
+                                <br>
+                                17
+                            </ion-col>
+
+                            <ion-col class="date-time-cal-icon">
+                                <span>CAL</span>
+                                <br>
+                                <img src="assets/imgs/classes-footer-icon.svg">
+                            </ion-col>
+                        </ion-row>
+                    </div>
+
+
+
+                </div>
+
+                <div class="time-booking">
+                    <div>
+                        <div class="time-booking-slot">
+                            08:30 <br>
+                            <span>am</span>
+
+                        </div>
+
+                        <ion-card class="plus-beacon">
+                            +BEACON THIS SLOT
+                            <span></span>
+
+                        </ion-card>
+                    </div>
+                    <div>
+                        <div class="time-booking-slot">
+                            09:00 <br>
+                            <span>am</span>
+
+                        </div>
+
+                        <ion-card class="coach-play-beacon">
+                            COACHPLAY - BEACON
+                            <span></span>
+
+                        </ion-card>
+                    </div>
+                    <div>
+                        <div class="time-booking-slot">
+                            09:00 <br>
+                            <span>am</span>
+
+                        </div>
+
+                        <ion-card class="plus-beacon">
+                            +BEACON THIS SLOT
+                            <span></span>
+
+                        </ion-card>
+                    </div>
+
+                    <div class="slot-num">
+                        <div class="time-booking-slot">
+                            09:30 <br>
+                            <span>am</span>
+
+                        </div>
+
+                        <ion-card class="group-class-high-performance" style=" height: 85px;">
+                            GROUP CLASS <br>
+                            High Performance
+                            <span></span>
+
+                        </ion-card>
+
+                        <div class="time-booking-slot">
+                            10:00 <br>
+                            <span>am</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div>
+
+                        <div class="time-booking-slot">
+                            10:30 <br>
+                            <span>am</span>
+
+                        </div>
+                        <ion-card class="coach-beacon-pending">
+                            COACH BEACON PENDING
+                            <span></span>
+
+                        </ion-card>
+                    </div>
+                    <div>
+
+                        <div class="time-booking-slot">
+                            11:00 <br>
+                            <span>am</span>
+
+                        </div>
+                        <ion-card class="booked-by-you">
+                            BLOCKED BY YOU
+                            <span></span>
+
+                        </ion-card>
+                    </div>
+
+                    <div class="slot-num">
+                        <div class="time-booking-slot">
+                            11:30 <br>
+                            <span>am</span>
+
+                        </div>
+
+                        <ion-card class="recurring-class-high-performance" style=" height: 110px;">
+                            RECURRING GROUP CLASS<br>
+                            U10 Starters
+                            <span></span>
+
+                        </ion-card>
+
+                        <div class="time-booking-slot">
+                            12:00 <br>
+                            <span>am</span>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div>
+                        <div class="time-booking-slot">
+                            12:30 <br>
+                            <span>pm</span>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div ng-switch-when="classes">
+                <div class="first-box-div" style="display:none">
+                    <div class="game-sel-box" float-start>
+                        <span float-start>FILTER: TENNIS</span>
+
+                        <ion-button float-end><img width="20" height="21" src="assets/imgs/sort-icon.svg" /></ion-button>
+                    </div>
+                    <div class="class-box-main" float-start>
+
+                        <div class="class-box-main-header" float-start>
+                            <span float-start>00 Month 2017 | Monday</span>
+                            <ion-button float-end><img width="10" height="9" src="assets/imgs/calaner-class-orange-icon.svg" /></ion-button>
+                        </div>
+
+
+                        <div class="class-box-main-content" float-start>
+
+                            <ion-card class="group-class-box" margin-bottom>
+
+                                <div class="class-card-box">
+
+                                    <div class="time-user">
+                                        <span float-start>00 Month 2019</span>
+                                        <span style=" display: inline-flex;" float-end>2/2
+                                            <img style="margin: 2px 0 0 5px;" width="11" height="11" src="assets/imgs/user-icon.svg" /></span>
+
+
+                                    </div>
+
+                                    <div class="time-slot" float-start>
+                                        <span float-start>00:00am - 00:00pm</span>
+                                        <span class="game-icon" float-end><img width="20" height="20" src="assets/imgs/tennis-sport-class-icon.svg" /></span>
+                                    </div>
+
+                                    <div class="class-content-main" float-start>
+                                        <span class="title">GROUP CLASS - U10</span>
+                                        <span>Title of Session</span>
+                                        <span>CourtName (Grass - outdoor)</span>
+                                        <span>Name of Club</span>
+
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="btn-group-box">
+
+                                    <button float-left slot="start" text-left>Attendance</button>
+
+                                    <button float-right slot="end" text-right>Feedback</button>
+
+                                </div>
+                            </ion-card>
+
+                            <ion-card class="group-class-junior-box" margin-bottom>
+
+                                <div class="class-card-box">
+
+                                    <div class="time-user">
+                                        <span float-start>1 AUG - 23 AUG 2018 (3 weeks)</span>
+                                        <span style=" display: inline-flex;" float-end>5/5
+                                            <img style="margin: 2px 0 0 5px;" width="11" height="11" src="assets/imgs/user-icon-junior.svg" /></span>
+
+
+                                    </div>
+
+                                    <div class="time-slot" float-start>
+                                        <span float-start>00:00am - 00:00pm</span>
+                                        <span class="game-icon" float-end><img width="20" height="20" src="assets/imgs/tennis-sport-class-icon.svg" /></span>
+                                    </div>
+
+                                    <div class="class-content-main" float-start>
+                                        <span class="title">GROUP CLASS - JUNIOR ELITE</span>
+                                        <span>Technique</span>
+                                        <span>CourtName (Grass - outdoor)</span>
+                                        <span>CourtName (Carpet - outdoor)</span>
+                                        <span>Name of Club</span>
+
+
+                                    </div>
+
+                                    <div class="day-confirm-box">
+                                        <span>Mo</span>
+                                        <span>Tu</span>
+                                        <span>We</span>
+                                        <span>Th</span>
+                                        <span class="active">Fr</span>
+                                        <span class="active">Sa</span>
+                                        <span>Su</span>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="btn-group-box">
+
+                                    <button float-left slot="start" text-left>Attendance</button>
+
+                                    <button float-right slot="end" text-right>Feedback</button>
+
+                                </div>
+                            </ion-card>
+
+                            <ion-card class="pending-class-box" margin-bottom>
+
+                                <div class="class-card-box">
+
+                                    <div class="time-user">
+                                        <span float-start>00 Month 2019</span>
+                                        <span style=" display: inline-flex;" float-end>2/2
+                                            <img style="margin: 2px 0 0 5px;" width="11" height="11" src="assets/imgs/pending-user-icon.svg" /></span>
+
+
+                                    </div>
+
+                                    <div class="time-slot" float-start>
+                                        <span float-start>00:00am - 00:00pm</span>
+                                        <span class="game-icon" float-end><img width="20" height="20" src="assets/imgs/tennis-sport-class-icon.svg" /></span>
+                                    </div>
+
+                                    <div class="class-content-main" float-start>
+                                        <span class="title">GROUP CLASS - U10</span>
+                                        <span>Title of Session</span>
+                                        <span>CourtName (Grass - outdoor)</span>
+                                        <span>Name of Club</span>
+
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="btn-group-box">
+
+
+
+                                    <button float-right slot="end" text-right>Approve Players</button>
+
+                                </div>
+                            </ion-card>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="class-box-main" float-start>
+
+                        <div class="class-box-main-header" float-start>
+                            <span float-start>00 Month 2017 | Monday</span>
+                            <ion-button float-end><img width="10" height="9" src="assets/imgs/calaner-class-orange-icon.svg" /></ion-button>
+                        </div>
+
+
+                        <div class="class-box-main-content" float-start>
+
+
+                            <ion-card class="group-class-junior-box" margin-bottom>
+
+                                <div class="class-card-box">
+
+                                    <div class="time-user">
+                                        <span float-start>1 AUG - 23 AUG 2018 (3 weeks)</span>
+                                        <span style=" display: inline-flex;" float-end>5/5
+                                            <img style="margin: 2px 0 0 5px;" width="11" height="11" src="assets/imgs/user-icon-junior.svg" /></span>
+
+
+                                    </div>
+
+                                    <div class="time-slot" float-start>
+                                        <span float-start>00:00am - 00:00pm</span>
+                                        <span class="game-icon" float-end><img width="20" height="20" src="assets/imgs/tennis-sport-class-icon.svg" /></span>
+                                    </div>
+
+                                    <div class="class-content-main" float-start>
+                                        <span class="title">GROUP CLASS - JUNIOR ELITE</span>
+                                        <span>Technique</span>
+                                        <span>CourtName (Grass - outdoor)</span>
+                                        <span>CourtName (Carpet - outdoor)</span>
+                                        <span>Name of Club</span>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </ion-card>
+
+                            <ion-card class="group-class-junior-box" margin-bottom>
+
+                                <div class="class-card-box">
+
+                                    <div class="time-user">
+                                        <span float-start>1 AUG - 23 AUG 2018 (3 weeks)</span>
+                                        <span style=" display: inline-flex;" float-end>5/5
+                                            <img style="margin: 2px 0 0 5px;" width="11" height="11" src="assets/imgs/user-icon-junior.svg" /></span>
+
+
+                                    </div>
+
+                                    <div class="time-slot" float-start>
+                                        <span float-start>00:00am - 00:00pm</span>
+                                        <span class="game-icon" float-end><img width="20" height="20" src="assets/imgs/tennis-sport-class-icon.svg" /></span>
+                                    </div>
+
+                                    <div class="class-content-main" float-start>
+                                        <span class="title">GROUP CLASS - JUNIOR ELITE</span>
+                                        <span>Technique</span>
+                                        <span>CourtName (Grass - outdoor)</span>
+                                        <span>CourtName (Carpet - outdoor)</span>
+                                        <span>Name of Club</span>
+
+
+                                    </div>
+
+                                    <div class="day-confirm-box">
+                                        <span>Mo</span>
+                                        <span>Tu</span>
+                                        <span>We</span>
+                                        <span>Th</span>
+                                        <span class="active">Fr</span>
+                                        <span class="active">Sa</span>
+                                        <span>Su</span>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="btn-group-box">
+
+                                    <button float-left slot="start" text-left>Attendance</button>
+
+                                    <button float-right slot="end" text-right>Feedback</button>
+
+                                </div>
+                            </ion-card>
+
+                            <ion-card class="pending-class-box" margin-bottom>
+
+                                <div class="class-card-box">
+
+                                    <div class="time-user">
+                                        <span float-start>00 Month 2019</span>
+                                        <span style=" display: inline-flex;" float-end>2/2
+                                            <img style="margin: 2px 0 0 5px;" width="11" height="11" src="assets/imgs/pending-user-icon.svg" /></span>
+
+
+                                    </div>
+
+                                    <div class="time-slot" float-start>
+                                        <span float-start>00:00am - 00:00pm</span>
+                                        <span class="game-icon" float-end><img width="20" height="20" src="assets/imgs/tennis-sport-class-icon.svg" /></span>
+                                    </div>
+
+                                    <div class="class-content-main" float-start>
+                                        <span class="title">GROUP CLASS - U10</span>
+                                        <span>Title of Session</span>
+                                        <span>CourtName (Grass - outdoor)</span>
+                                        <span>Name of Club</span>
+
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="btn-group-box">
+
+
+
+                                    <button float-right slot="end" text-right>Approve Players</button>
+
+                                </div>
+                            </ion-card>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="second-box-div">
+                    <div class="class-sample">
+                        <ion-list lines="none">
+                            <ion-item><span slot="start">Attendance</span> <img slot="end" width="20" height="20" src="assets/imgs/attendance-icon.svg" /></ion-item>
+
+                            <ion-item>Feedback <img slot="end" width="20" height="20" src="assets/imgs/attendance-icon.svg" /></ion-item>
+
+                            <ion-item>Chat <img slot="end" width="23" height="19" src="assets/imgs/chat-icon.svg" /></ion-item>
+
+                        </ion-list>
+
+                        <div class="up-coming-class-box">
+                            <h3>UPCOMING CLASS:</h3>
+                            <ion-list lines="none">
+                                <ion-item class="active"><span slot="start">WED 8 AUG 2018</span> <span slot="end">9:00am
+                                        - 10:00am</span></ion-item>
+                                <ion-item class="like-btn">TOTAL CLASSES LEFT: 9/12
+                                    <img slot="end" src="assets/imgs/ahead-arrow.svg" />
+                                </ion-item>
+
+                            </ion-list>
+
+
+
+                        </div>
+
+
+                        <div class="group-class-main-box">
+
+                            <div class="head-box-classes group-class-head">
+
+                                <span>GroupClass</span>
+                                <span class="game-icon" style="    background: #fff;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;"
+                                    margin-end float-end><img width="20" height="20" src="assets/imgs/tennis-sport-class-icon.svg" /></span>
+                            </div>
+                            <div class="class-box-main" float-start>
+
+
+
+
+                                <div class="class-box-main-content" no-padding float-start>
+
+                                    <img class="class-show-img" src="assets/imgs/Mask-img.png" />
+                                    <ion-card class="group-class-junior-box" margin-bottom>
+
+                                        <div class="class-card-box">
+
+                                            <div class="time-user">
+                                                <span float-start>DD MMM 2018</span>
+                                                <span style=" display: inline-flex;" float-end>30/30
+                                                    <img style="margin: 2px 0 0 5px;" width="11" height="11" src="assets/imgs/user-icon-junior.svg" /></span>
+
+
+                                            </div>
+
+                                            <div class="time-slot" float-start>
+                                                <span float-start>Title of Session</span>
+                                                <span class="cat-type">Category Type</span>
+                                                <span class="dis-class">Description of class goes here. Lorem ipsum
+                                                    dolor sit amet, consectetur adipiscing elit.</span>
+                                            </div>
+
+
+                                            <div class="court-club-name">
+
+                                                <span>CourtName (Carpet - indoor)</span>
+                                                <span>CourtName (Grass - outdoor)</span>
+                                                <span>Name of Club</span>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </ion-card>
+
+                                    <ion-list class="coach-list" lines="none">
+                                        <ion-item>
+
+                                            <span class="coach-id">
+
+                                                main</span>
+                                            <img src="assets/imgs/coach-img.png" />
+
+                                            <div>Coach Name
+                                                <span class="coach-post">COACH</span>
+
+
+                                            </div>
+
+
+                                        </ion-item>
+                                    </ion-list>
+
+                                    <ion-card class="day-dif-box" padding style="margin-bottom:0; border-radius:5px;">
+                                        <ion-list lines="none">
+                                            <ion-item class="day-dif-item"><span slot="start">MON</span>
+                                                <span slot="end">9:30am - 10:30am</span>
+                                            </ion-item>
+
+                                            <ion-item class="day-dif-item"><span slot="start">MON</span>
+                                                <span slot="end">9:30am - 10:30am</span></ion-item>
+
+                                            <ion-item class="day-dif-item"><span slot="start">MON</span>
+                                                <span slot="end">9:30am - 10:30am</span></ion-item>
+
+                                            <ion-item class="day-dif-item"><span slot="start">MON</span>
+                                                <span slot="end">9:30am - 10:30am</span></ion-item>
+
+                                            <ion-item class="day-dif-item"><span slot="start">MON</span>
+                                                <span slot="end">9:30am - 10:30am</span></ion-item>
+                                        </ion-list>
+
+
+
+                                    </ion-card>
+
+                                    <div class="footer-bar group-class">
+                                        Booking ID: 000000000000
+                                    </div>
+
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+                        <div class="group-class-main-box">
+
+                            <div class="head-box-classes pending-class-head">
+
+                                <span>CoachPlay - Beacon (PENDING)</span>
+                                <span class="game-icon" style="    background: #fff;
+                                    height: 26px;
+                                    width: 26px;
+                                    text-align: center;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border-radius: 50%;"
+                                    margin-end float-end><img width="20" height="20" src="assets/imgs/tennis-sport-class-icon.svg" /></span>
+                            </div>
+                            <div class="class-box-main" float-start>
+
+
+
+
+                                <div class="class-box-main-content" no-padding float-start>
+
+
+                                    <ion-card class="group-class-junior-box" margin-bottom>
+
+                                        <div class="class-card-box">
+
+                                            <div class="time-user">
+                                                <span float-start>DD MMM 2018</span>
+                                                <span style=" display: inline-flex;" float-end>30/30
+                                                    <img style="margin: 2px 0 0 5px;" width="11" height="11" src="assets/imgs/user-icon-junior.svg" /></span>
+
+
+                                            </div>
+
+                                            <div class="time-slot" float-start>
+                                                <span float-start>00:00am - 00:00pm</span>
+                                                <span class="cat-type">Category Type</span>
+                                                <span class="dis-class">Description of class goes here. Lorem ipsum
+                                                    dolor sit amet, consectetur adipiscing elit.</span>
+                                            </div>
+
+
+                                            <div class="court-club-name">
+
+                                                <span>CourtName (Carpet - indoor)</span>
+                                                <span>CourtName (Grass - outdoor)</span>
+                                                <span>Name of Club</span>
+
+
+                                            </div>
+
+                                            <button class="pending-defined-btn">Defined Coaching Expectations</button>
+
+                                        </div>
+
+                                    </ion-card>
+
+                                    <ion-list class="coach-list pending-list" lines="none">
+
+                                        
+                                        <ion-item>
+
+                                           
+                                            <img src="assets/imgs/coach-img.png" />
+
+                                            <div>Coach Name
+                                                <span class="coach-post">COACH</span>
+
+
+                                            </div>
+
+                                           <img slot="end" style="width:16px; height:16px; margin:0 20px 0 0" width="16" height="16" src="assets/imgs/completed-icon.svg"/>
+
+                                        </ion-item>
+
+                                        <ion-item>
+
+                                                <span class="booker-id">
+    
+                                                   BOOKER</span>
+                                                <img src="assets/imgs/coach-img.png" />
+    
+                                                <div>Player Name
+                                                    <span>00 | SELF RATED | 0000 XP</span>
+    
+                                                    
+                                                </div>
+                                          
+                                                <img slot="end" style="width:16px; height:16px; margin:0 20px 0 0" width="16" height="16" src="assets/imgs/completed-icon.svg"/>
+    
+    
+                                            </ion-item>
+
+                                            <ion-item>
+
+                                                   
+                                                    <img src="assets/imgs/looking-player-icon.png" />
+        
+                                                    <div>Looking for Player
+                                                        <span>Rank 00 - 00</span>
+        
+                                                        
+                                                    </div>
+                                              
+                                                    <img slot="end" style="width:16px; height:16px; margin:0 20px 0 0" width="16" height="16" src="assets/imgs/pending-icon.svg"/>
+        
+        
+                                                </ion-item>
+                                    </ion-list>
+
+
+
+                                    <div class="footer-bar pending-class">
+                                        Booking ID: 000000000000
+                                    </div>
+
+                                    <ion-button float-left class="resend-btn" expand="block">CANCEL SESSION</ion-button>
+
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</ion-content>
+
+<ion-footer>
+
+    <ion-toolbar>
+
+        <ion-segment ng-model="categories" full="true" assertive>
+            <ion-segment-button value="schedule">
+                <svg id="Group_12474" data-name="Group 12474" xmlns="http://www.w3.org/2000/svg" width="16.068" height="16"
+                    viewBox="0 0 16.068 16">
+                    <g id="Group_12471" data-name="Group 12471" transform="translate(0 0)">
+                        <g id="Group_12476" data-name="Group 12476">
+                            <path id="Path_7375" data-name="Path 7375" d="M15.319,16H.749A.746.746,0,0,1,0,15.319V.749A.756.756,0,0,1,.749,0h14.57a.756.756,0,0,1,.749.749v14.57a.866.866,0,0,1-.749.681ZM1.43,14.57H14.57V1.43H1.43V14.57Z"
+                                transform="translate(0 0)" />
+                        </g>
+                    </g>
+                    <g id="Group_12472" data-name="Group 12472" transform="translate(0.613 5.174)">
+                        <path id="Path_7376" data-name="Path 7376" d="M15.334,8.281H1.24a.34.34,0,1,1,0-.681H15.334a.34.34,0,0,1,0,.681Z"
+                            transform="translate(-0.9 -7.6)" />
+                    </g>
+                    <g id="Group_12473" data-name="Group 12473" transform="translate(0.613 10.077)">
+                        <path id="Path_7377" data-name="Path 7377" d="M15.334,15.481H1.24a.34.34,0,1,1,0-.681H15.334a.34.34,0,0,1,0,.681Z"
+                            transform="translate(-0.9 -14.8)" />
+                    </g>
+                </svg>
+
+                schedule
+            </ion-segment-button>
+            <ion-segment-button value="classes">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16.031" viewBox="0 0 18 16.031">
+                    <path id="Path_7370" data-name="Path 7370" d="M17.291,1.33h-2.31V.77a.77.77,0,1,0-1.54,0v.56H4.69V.77a.77.77,0,1,0-1.54,0v.56H.77A.8.8,0,0,0,0,2.17V15.261a.777.777,0,0,0,.77.77H17.221a.777.777,0,0,0,.77-.77V2.17A.706.706,0,0,0,17.291,1.33ZM3.15,2.94V3.5a.77.77,0,0,0,1.54,0V2.94H13.3V3.5a.77.77,0,0,0,1.54,0V2.94h1.54V6.09H1.61V2.94ZM1.61,14.421V6.86H16.451v7.56Z"
+                        transform="translate(0)" />
+                </svg>
+
+                classes
+            </ion-segment-button>
+            <ion-segment-button value="pending">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16.371" viewBox="0 0 18 16.371">
+                    <g id="Group_12466" data-name="Group 12466" transform="translate(0)">
+                        <g id="Group_12464" data-name="Group 12464">
+                            <path id="Path_7371" data-name="Path 7371" d="M3.647,16.371h-.7a.825.825,0,0,1-.7-.621.78.78,0,0,1,.388-.853,4.811,4.811,0,0,0,1.707-1.319C1.707,12.181,0,9.853,0,7.293,0,3.259,4.034,0,9,0s9,3.259,9,7.293-4.034,7.293-9,7.293H8.612a7.6,7.6,0,0,1-4.966,1.784ZM9,1.552c-4.112,0-7.448,2.56-7.448,5.741,0,2.172,1.629,4.19,4.19,5.121a.7.7,0,0,1,.466.466.85.85,0,0,1,0,.621l-.078.078c-.078.078-.078.233-.155.31l-.466.7a4.364,4.364,0,0,0,2.25-1.319.881.881,0,0,1,.621-.233H9c4.112,0,7.448-2.56,7.448-5.741S13.112,1.552,9,1.552Z" />
+                        </g>
+                        <g id="Group_12465" data-name="Group 12465" transform="translate(4.422 6.44)">
+                            <path id="Path_7372" data-name="Path 7372" d="M6.864,8.3A1.164,1.164,0,1,0,8.028,9.464,1.193,1.193,0,0,0,6.864,8.3Z"
+                                transform="translate(-5.7 -8.3)" />
+                            <path id="Path_7373" data-name="Path 7373" d="M11.264,8.3a1.164,1.164,0,1,0,1.164,1.164A1.193,1.193,0,0,0,11.264,8.3Z"
+                                transform="translate(-6.686 -8.3)" />
+                            <path id="Path_7374" data-name="Path 7374" d="M15.764,8.3a1.164,1.164,0,1,0,1.164,1.164A1.193,1.193,0,0,0,15.764,8.3Z"
+                                transform="translate(-7.695 -8.3)" />
+                        </g>
+                    </g>
+                </svg>
+
+                pending
+            </ion-segment-button>
+            <ion-segment-button value="history">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" viewBox="0 0 21 18">
+                    <path id="Path_5407" data-name="Path 5407" d="M13,3a8.963,8.963,0,0,0-9,9H1l3.9,3.9L5,16l4-4H6a7,7,0,1,1,7,7,6.715,6.715,0,0,1-4.9-2.1L6.7,18.3A8.526,8.526,0,0,0,13,21,9,9,0,0,0,13,3ZM12,8v5l4.3,2.5.7-1.2-3.5-2.1V8Z"
+                        transform="translate(-1 -3)" />
+                </svg>
+
+                history
+            </ion-segment-button>
+
+        </ion-segment>
+
+    </ion-toolbar>
+</ion-footer>

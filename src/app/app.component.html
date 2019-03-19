@@ -1,0 +1,78 @@
+<ion-app>
+  <ion-split-pane>
+    <ion-menu>
+
+      <ion-content class="mennu-content">
+        <div class="main-menu-div">
+        <div class="upper-detail-menu-box">
+          <div class="game-select">
+            Game Mode: Tennis
+
+            <button slot="end"><img width="18" height="15" src="assets/imgs/setting-icon.svg" /></button>
+          </div>
+
+          <div class="coach-name-wi-pic">
+
+            <img width="53" height="53" src="assets/imgs/profile_female.png"/>
+
+<span>Coach Name</span>
+
+          </div>
+
+
+        </div>
+        <ion-list>
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
+            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]" >
+              <!--ion-icon slot="start" [name]="p.icon"></ion-icon-->
+              <ion-label>
+                {{p.title}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+        <div class="button-btn-div-menu">
+<a href="">Terms + Conditions</a>
+<a href="">Privacy Policy</a>
+<span>version one</span>
+
+        </div>
+      </div>
+      <div class="game-indicator">
+<div>
+    <button>
+      <span class="active-game">
+        <img width="15" height="15" src="assets/imgs/tennis-menu-icon.svg"/>
+      </span>
+    </button>
+  </div>
+  <div>
+      <button>
+          <span>
+            <img width="15" height="15" src="assets/imgs/menu-game-icon.svg"/>
+          </span>
+        </button>
+      </div>
+  
+      <div>   
+        <button>
+            <span>
+              <img width="15" height="15" src="assets/imgs/bedminten-menu-icon.svg"/>
+            </span>
+          </button>
+        </div>
+    
+        <div> 
+          <button>
+              <span>
+                <img width="10" height="15" src="assets/imgs/chess-menu-icon.svg"/>
+              </span>
+            </button>
+          </div>
+
+      </div>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

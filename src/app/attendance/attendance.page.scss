@@ -1,0 +1,191 @@
+ion-content {
+    --background: url(../../assets/imgs/background-login.png) #1f1f1f;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.segment-button-checked {
+    background: #FF994B;
+    color: #000;
+    border: none;
+    height: 30px;
+    min-height: 30px !important;
+}
+
+ion-segment {
+    height: 30px;
+    background: #1F1F1F;
+    border-radius: 5px;
+
+}
+
+.segment-button-checked:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.segment-button-checked:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+ion-segment-button {
+    color: #5A5A5A;
+    font-size: 18px;
+    font-family: 'DIN Pro Condensed Medium';
+    border:0;
+}
+
+
+ion-segment-button ion-label {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.label-row {
+    color: #FF994B;
+    font-size: 11px;
+    font-family: 'RobotoRegular';
+}
+
+.label-row button {
+    background: none;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'RobotoRegular';
+}
+
+.coach-list.pending-list ion-item:last-child {
+    margin-bottom: 0;
+}
+
+.coach-list ion-item {
+    --min-height: 60px !important;
+    --background: #fff;
+    margin-bottom: 10px;
+    --border-radius: 5px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.coach-list ion-item-sliding{margin-bottom: 10px !important;}
+
+.coach-list ion-item div {
+    color: #212121;
+    font-size: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+    float: left;
+    width: auto;
+}
+
+.coach-list ion-item div span {
+    color: #919191;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'RobotoRegular' !important;
+    float: left;
+    width: 100%;
+}
+
+.coach-list ion-item img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    float: left;
+    margin-left: 10px;
+}
+
+ion-list {
+    background: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+ion-footer ion-toolbar {
+    background: #1f1f1f;
+    min-height: 70px;
+
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#attendance ion-footer ion-toolbar button {
+
+    height: 50px;
+    border-radius: 5px;
+    width: 48%;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+    margin: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#evaluation ion-footer ion-toolbar button {
+background: transparent; border: 1px solid #6DCCC1;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+    margin: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-check-btn {
+    background: #6DCCC1;
+}
+
+.right-close-btn {
+    background: #F25757;
+}
+
+ion-card {
+    background: #363636;
+    padding: 20px;
+    margin:0 0 10px 0;
+}
+
+ion-card-header {
+    margin: 0;
+    color: #A5A5A5;
+    font-size: 20px;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+    padding: 0;
+}
+
+ion-card p {
+    color: #a5a5a5;
+    font-size: 12px;
+    font-family: 'RobotoRegular';
+    line-height: 16px;
+     margin-bottom:16px;
+}
+ion-card svg{ fill:#a5a5a5;}
+
+.label-row ion-col{ padding:0;}
+
+#evaluation ion-card:last-child{ margin-bottom:70px;}
+
+ion-card.active ion-card-header, ion-card.active p{ color:#fff; }
+
+ion-card.active{ background: #FF994B;}
+
+ion-card.active svg{ fill:#fff;}
+
+ion-item-options button{ background: #363636; border-radius: 5px 0 0 5px;}
+
+ion-item-options{ background: #363636; border-radius: 5px;}
+
+

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="31" viewBox="0 0 50 31">
+  <g id="Group_15011" data-name="Group 15011" transform="translate(2493 1227)">
+    <text id="notifications" transform="translate(-2468 -1198)" fill="#606060" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="-24.838" y="0">notifications</tspan></text>
+    <g id="Group_13628" data-name="Group 13628" transform="translate(-2476.975 -1227)">
+      <g id="Group_13620" data-name="Group 13620" transform="translate(4.215)">
+        <g id="Group_13619" data-name="Group 13619">
+          <path id="Path_7506" data-name="Path 7506" d="M16.026,16H7.7a.6.6,0,0,1-.6-.667V.667A.6.6,0,0,1,7.7,0h8.331a.6.6,0,0,1,.6.667V15.333a.6.6,0,0,1-.6.667ZM8.29,14.667h7.14V1.333H8.29V14.667Z" transform="translate(-7.1)" fill="#606060"/>
+        </g>
+        <ellipse id="Ellipse_630" data-name="Ellipse 630" cx="0.714" cy="0.8" rx="0.714" ry="0.8" transform="translate(4.046 12.333)" fill="#606060"/>
+      </g>
+      <g id="Group_13627" data-name="Group 13627" transform="translate(-0.025 3.067)">
+        <g id="Group_13623" data-name="Group 13623" transform="translate(14.117)">
+          <g id="Group_13621" data-name="Group 13621" transform="translate(1.131)">
+            <path id="Path_7507" data-name="Path 7507" d="M26.2,14.4a.515.515,0,0,1-.417-.2.7.7,0,0,1,0-.933,5.819,5.819,0,0,0,0-7.533.7.7,0,0,1,0-.933.534.534,0,0,1,.833,0,7.216,7.216,0,0,1,0,9.4.61.61,0,0,1-.417.2Z" transform="translate(-25.6 -4.6)" fill="#606060"/>
+          </g>
+          <g id="Group_13622" data-name="Group 13622" transform="translate(0 1.333)">
+            <path id="Path_7508" data-name="Path 7508" d="M24.3,13.867a.515.515,0,0,1-.417-.2.7.7,0,0,1,0-.933,3.8,3.8,0,0,0,0-5,.7.7,0,0,1,0-.933.534.534,0,0,1,.833,0,5.29,5.29,0,0,1,0,6.933.793.793,0,0,1-.417.133Z" transform="translate(-23.7 -6.6)" fill="#606060"/>
+          </g>
+        </g>
+        <g id="Group_13626" data-name="Group 13626" transform="translate(0 0.067)">
+          <g id="Group_13624" data-name="Group 13624">
+            <path id="Path_7509" data-name="Path 7509" d="M2.132,14.433a.515.515,0,0,1-.417-.2,7.126,7.126,0,0,1,0-9.333.534.534,0,0,1,.833,0,.7.7,0,0,1,0,.933,5.819,5.819,0,0,0,0,7.533.7.7,0,0,1,0,.933.793.793,0,0,1-.417.133Z" transform="translate(0.025 -4.7)" fill="#606060"/>
+          </g>
+          <g id="Group_13625" data-name="Group 13625" transform="translate(1.577 1.2)">
+            <path id="Path_7510" data-name="Path 7510" d="M4.336,13.833a.515.515,0,0,1-.417-.2,5.29,5.29,0,0,1,0-6.933.534.534,0,0,1,.833,0,.7.7,0,0,1,0,.933,3.8,3.8,0,0,0,0,5,.7.7,0,0,1,0,.933.5.5,0,0,1-.417.267Z" transform="translate(-2.625 -6.5)" fill="#606060"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

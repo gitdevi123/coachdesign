@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-icon name="arrow-back"></ion-icon>
+        </ion-buttons>
+    <ion-title>Add Video</ion-title>
+    <ion-buttons class="close-icon" slot="end">
+        <ion-icon name="close"></ion-icon>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content no-padding style="--padding-top:10px;">
+
+  <div class="form-field">
+
+    <ion-input type="text" placeholder="video title"></ion-input>
+  </div>
+
+
+  <div class="form-field for-attach-file">
+
+      <ion-input type="file" placeholder="attach file"></ion-input>
+      <span>attach file</span>
+      <span class="video-icon-show"><img src="assets/imgs/attach-file-icon.svg"/></span>
+    </div>
+
+    <ion-list lines="none">
+      <ion-item>
+        <span>filename.mpg</span>
+        <button slot="end"><img src="assets/imgs/close-icon-red.svg"/></button>
+      </ion-item>
+
+    </ion-list>
+
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar>
+      <button class="disabled">SAVE</button>
+    </ion-toolbar>
+  </ion-footer>

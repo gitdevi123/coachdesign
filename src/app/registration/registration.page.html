@@ -1,0 +1,131 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Registration</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="main-box" padding>
+
+    <form>
+      <div class="first-form" style="display:none;">
+        <ion-input class="login-input" type="email" placeholder="email address"></ion-input>
+        <div class="input-click-btn">
+          <ion-input type="password" class="login-input" placeholder="password (alphanumeric, 8 chars min)"></ion-input>
+          <button class="input-btn"><img width="20" height="15" src="assets/imgs/password-icon.svg" /></button>
+        </div>
+        <div class="input-half">
+          <ion-input class="login-input" type="email" placeholder="first name"></ion-input>
+          <ion-input class="login-input" type="email" placeholder="last name"></ion-input>
+
+
+        </div>
+
+        <div class="input-half">
+          <ion-button slot="start" text-left class="login-input">male</ion-button>
+          <ion-button slot="start" text-left class="login-input">female</ion-button>
+
+
+        </div>
+        <div class="input-click-btn">
+          <ion-datetime placeholder="date of birth" display-format="MMM DD, YYYY HH:mm"></ion-datetime>
+          <button class="input-btn"><img width="20" height="15" src="assets/imgs/date-time-icon.svg" /></button>
+        </div>
+
+        <div class="contact-box">
+
+          <span>+000</span>
+          <ion-input type="number" placeholder="contact number"></ion-input>
+        </div>
+
+        <ion-button disabled class="nxt-btn" expand="block">NEXT</ion-button>
+
+      </div>
+
+      <div class="second-form" style="display:none">
+
+        <ion-input class="login-input" type="text" placeholder="address line 1"></ion-input>
+
+        <ion-input class="login-input" type="text" placeholder="address line 2"></ion-input>
+
+        <div class="input-half">
+          <ion-input class="login-input" type="email" placeholder="city"></ion-input>
+          <ion-input class="login-input" type="email" placeholder="state"></ion-input>
+
+
+        </div>
+
+        <ion-input class="login-input" type="number" placeholder="postcode"></ion-input>
+
+        <div class="li-select-btn">
+
+          <ion-input class="login-input" type="number" placeholder="country"></ion-input>
+          <span><img src="assets/imgs/drop-down-arrow.svg" /></span>
+        </div>
+
+        <ion-button disabled class="nxt-btn" expand="block">NEXT</ion-button>
+
+      </div>
+
+
+      <div class="third-form">
+        <ion-list lines="none">
+         
+
+
+            <ion-item>
+              <ion-label text-left>
+                tennis</ion-label>
+              <ion-checkbox mode="ios" slot="end"></ion-checkbox>
+            </ion-item>
+
+            <ion-item>
+              <ion-label>squash</ion-label>
+              <ion-checkbox mode="ios" slot="end"></ion-checkbox>
+            </ion-item>
+
+            <ion-item>
+              <ion-label>badminton</ion-label>
+              <ion-checkbox mode="ios" slot="end"></ion-checkbox>
+            </ion-item>
+
+
+            <ion-item>
+              <ion-label>chess</ion-label>
+              <ion-checkbox mode="ios" slot="end"></ion-checkbox>
+            </ion-item>
+       
+        </ion-list>
+
+        <div class="button-btn-div" text-center>
+          <div float-left style="background: #1F1F1F;
+          position: relative;
+          left: -20px; margin-bottom: 25px;
+          width: calc(100% + 40px);">
+            <ion-label style="    float: left;
+            padding: 20px 25px;
+            font-size: 11px;
+            color: #a5a5a5;">I
+              agree to the <a href="" style=" color: #FF994B;
+    text-decoration: none;">Terms of Service</a> and <a
+                style=" color: #FF994B;
+    text-decoration: none;" href="">Privacy Policy</a></ion-label>
+            <ion-toggle  style="margin: 7px 0px;" mode="md" class="toggle-btn"></ion-toggle>
+          </div>
+          <ion-button float-left disabled class="nxt-btn" expand="block" style="position: relative; bottom: 0;">NEXT</ion-button>
+
+
+
+        </div>
+      </div>
+
+
+
+    </form>
+
+
+
+  </div>
+
+</ion-content>

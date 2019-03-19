@@ -1,0 +1,293 @@
+ion-content {
+    --background: #f4f4f4 !important;
+}
+
+.outer-border-pic {
+    width: 180px;
+    height: 180px;
+    background: #363636;
+    display: block;
+    border-radius: 50%;
+    margin: 12px auto 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.outer-border-pic img {
+    border: 5px solid #FF994B;
+    border-radius: 50%;
+}
+
+.coach-profile-box {
+    float: left;
+    width: 100%;
+    background: #1F1F1F;
+}
+
+.rate-up {
+    float: left;
+    width: 100%;
+    background: #424242;
+    padding: 20px 0 30px;
+}
+
+.rate-up ion-col {
+    color: #f7f7f7;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+.rate-up ion-col span {
+    font-size: 10px;
+    font-family: 'RobotoRegular';
+    border-top: 1px solid #95989A;
+    display: block;
+    padding-top: 8px;
+}
+
+.main-reating-public {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+
+}
+
+.main-reating-public-inner {
+    float: left;
+    font-size: 16px;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+    border: 1px solid #212121;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-reating-public-inner img {
+    margin-left: 5px;
+}
+
+.main-reating-public-inner:first-child {
+    background: #212121;
+    border-radius: 5px 0 0 5px;
+    color: #fff;
+
+}
+
+.main-reating-public-inner:last-child {
+    color: #212121;
+    border-radius: 0 5px 5px 0;
+
+}
+
+.main-reating-public-main {
+    float: left;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.fo-card ion-row {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.fo-card ion-row:last-child {
+    border-bottom: 0;
+}
+
+.fo-card ion-row ion-col {
+    padding: 10px 0;
+    color: #424242;
+    font-size: 10px;
+    font-family: 'RobotoRegular';
+    line-height: 15px;
+}
+
+.fo-card ion-card ion-card-header {
+    min-height: 40px;
+    background: #5a5a5a;
+    font-size: 11px;
+    font-family: 'RobotoRegular';
+    color: #fff;
+}
+
+ion-card {
+    margin: 3px 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    background: #fff;
+}
+
+.club-wrap span {
+    color: #212121;
+    font-size: 16px;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+
+    display: block;
+    margin-left: 20px;
+}
+
+.club-wrap span span {
+    color: #919191;
+    font-size: 10px;
+    font-family: 'RobotoMedium';
+    margin-left: 0;
+}
+
+.club-wrap {
+    background: none;
+    margin-bottom: 0;
+}
+
+.club-wrap ion-item {
+    background: #fff;
+}
+
+.club-wrap ion-item img {
+    border-radius: 50%;
+}
+
+.feedback-block ion-label {
+    color: #6DCCC1;
+    font-size: 10px;
+    font-family: 'RobotoMedium';
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.feedback-block ion-card {
+    padding: 10px 20px;
+    margin: 3px 20px;
+    float: left;
+    width: calc(100% - 40px);
+}
+
+.date-box {
+    color: #919191;
+    font-size: 10px;
+    font-family: 'RobotoRegular';
+}
+
+.rating-star img {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.feedback-block ion-col {
+    padding: 10px 0
+}
+
+span.ply-nm {
+    float: left;
+    width: 100%;
+    color: #6DCCC1;
+    font-size: 14px;
+    font-family: "Khand" !important;
+    font-weight: 500;
+}
+
+.feedback-block ion-col p {
+    color: #000;
+    font-size: 11px;
+    font-family: 'RobotoRegular';
+    float: left;
+    margin: 2px 0 0;
+
+}
+
+.profile-header {
+    float: left;
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    text-align: center;
+    background: #FF994B;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    font-family: "Khand" !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.coach-name {
+    float: left;
+    width: 100%;
+    color: #FF994B;
+    font-size: 18px;
+    padding: 0 20px;
+    text-align: center;
+    margin: 15px 0 30px;
+    font-family: "Khand" !important;
+    font-weight: 400;
+    position: relative;
+}
+
+.coach-name button {
+    background: none;
+    top: 5px;
+    position: absolute;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.coach-name button svg {
+    fill: #fff !important;
+}
+
+.selected-game-icon {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 37px;
+}
+
+.selected-game-icon span {
+    width: 16px;
+    height: 16px;
+    background: #606060;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.selected-game-icon span svg {
+    fill: #212121;
+}
+
+.selected-game-icon span.active {
+    background: #6DCCC1;
+}
+
+.selected-game-icon span.active:after {
+    background: #78D8CD;
+    height: 2px;
+    width: 16px;
+    content: "";
+    position: absolute;
+    right: -21px;
+
+}
+
+.outer-border-pic .gender-icon {
+    border: 0;
+    position: absolute;
+    bottom: -2px;
+    border-radius: 0;
+}

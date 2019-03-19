@@ -1,0 +1,89 @@
+ion-content {
+    --background: url(../../assets/imgs/background-login.png) #1f1f1f;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+#attendance ion-footer ion-toolbar button {
+
+    height: 50px;
+    border-radius: 5px;
+    width: 48%;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+    margin: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#evaluation ion-footer ion-toolbar button {
+background: transparent; border: 1px solid #6DCCC1;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+    margin: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-check-btn {
+    background: #6DCCC1;
+}
+
+.right-close-btn {
+    background: #F25757;
+}
+
+ion-card {
+    background: #363636;
+    padding: 20px;
+    margin:0 0 10px 0;
+}
+
+ion-card-header {
+    margin: 0;
+    color: #A5A5A5;
+    font-size: 20px;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+    padding: 0;
+}
+
+ion-card p {
+    color: #a5a5a5;
+    font-size: 12px;
+    font-family: 'RobotoRegular';
+    line-height: 16px;
+     margin-bottom:16px;
+}
+ion-card svg{ fill:#a5a5a5;}
+
+.label-row ion-col{ padding:0;}
+
+#evaluation ion-card:last-child{ margin-bottom:70px;}
+
+ion-card.active ion-card-header, ion-card.active p{ color:#fff; }
+
+ion-card.active{ background: #FF994B;}
+
+ion-card.active svg{ fill:#fff;}
+
+ion-footer ion-toolbar {
+    background: #1f1f1f;
+    min-height: 70px;
+
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}

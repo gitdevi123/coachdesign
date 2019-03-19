@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>CV</ion-title>
+    <ion-buttons slot="end" margin-end>
+        <img width="12" height="12" src="assets/imgs/close-icon.svg"/>
+       </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<div class="game-sel-box" float-start>
+    <span float-start>FILTER: TENNIS</span>
+
+    <ion-button float-end><img width="20" height="21" src="assets/imgs/sort-icon.svg" /></ion-button>
+</div>
+<ion-content padding>
+
+    <ion-list lines="none">
+        <ion-item expand="block" ion-item >Years of Experience
+            <img slot="end" src="assets/imgs/pending-icon-black.svg" />
+        </ion-item>
+
+        <ion-item (click)="addexperienceModal()" class="active" expand="block" ion-item>Coaching Experience
+            <img slot="end" src="assets/imgs/right-dark-icon.svg" />
+        </ion-item>
+        <ion-item expand="block" ion-item>Certification
+            <img slot="end" src="assets/imgs/pending-icon-black.svg" />
+        </ion-item>
+        <ion-item expand="block" ion-item>Remarks
+            <img slot="end" src="assets/imgs/pending-icon-black.svg" />
+        </ion-item>
+      
+    </ion-list>
+
+</ion-content>

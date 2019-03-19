@@ -1,0 +1,424 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+
+ion-icon {
+    &[class*="custom-"] {
+      // Instead of using the font-based icons
+      // We're applying SVG masks
+      mask-size: contain;
+      mask-position: 50% 50%;
+      mask-repeat: no-repeat;
+      background: currentColor;
+      width: 1em;
+      height: 1em;
+    }
+  
+    // custom icons
+    &[class*="custom-schedule-icon"] {
+      mask-image: url(assets/imgs/schedule-footer-icon.svg);
+    }  
+
+}
+
+
+.login-input input {
+    height: 50px !important;
+    border-radius: 5px !important;
+    background: #363636 !important;
+    border: 1px solid #363636 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 0 20px !important;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2)
+}
+
+
+ion-toolbar {
+    --background: #222;
+}
+
+ion-title {
+    color: #a5a5a5;
+    font-size: 13px;
+    font-family: "Khand";
+    font-weight: 500;
+    background: #222;
+    text-align: center;
+}
+
+
+.has-focus.has-value input {
+    border: 1px solid #363636 !important;
+}
+
+.input-click-btn {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+button.input-btn {
+    border: 0 !important;
+    position: absolute;
+    z-index: 2;
+    width: auto !important;
+    right: 10px;
+    top: 0;
+    height: 50px;
+    background: none;
+    outline: 0;
+}
+
+.input-half {
+    float: left;
+    width: 100%
+}
+
+.input-half ion-input {
+    width: 49%
+}
+
+.input-half ion-input:first-child {
+    float: left
+}
+
+.input-half ion-input:last-child {
+    float: right
+}
+
+
+.input-half ion-button {
+    width: 49%;
+    margin: 0;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+    --background: none;
+    margin-bottom: 10px;
+    color: #a5a5a5;
+    font-family: "Khand" !important;
+
+    button {
+        --background: none;
+
+
+    }
+}
+
+.input-half ion-button:first-child {
+    float: left
+}
+
+.input-half ion-button:last-child {
+    float: right
+}
+
+ion-datetime.datetime-placeholder.hydrated {
+    color: #a5a5a5 !important;
+}
+
+ion-datetime {
+    height: 50px !important;
+    border-radius: 5px !important;
+    background: #363636 !important;
+    border: 1px solid #363636 !important;
+    color: #a5a5a5 !important;
+    font-size: 16px !important;
+    padding: 0 20px !important;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff !important;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.contact-box ion-input input {
+    border-radius: 5px !important;
+    margin: 0;
+    padding: 0 20px !important;
+    border: 1px solid #363636 !important;
+}
+
+.has-focus input {
+    border: 1px solid #fff !important;
+}
+
+.radio-icon {
+    width: 12px;
+    height: 12px;
+    --background: #a5a5a5;
+    border-radius: 50%;
+    border: 0 !important;
+}
+
+.ver-input .has-focus input {
+    border: none !important;
+}
+
+.ver-input ion-input input.native-input {
+    padding: 0 !important;
+}
+
+.search-input .searchbar-input-container {
+    height: 50px !important;
+    border-radius: 5px !important;
+    background: #363636 !important;
+    border: 1px solid #363636 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 0 20px !important;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2)
+}
+
+
+.search-input .searchbar-input-container input {
+    background: #363636 !important;
+    -webkit-padding-start: 0px !important;
+    padding-inline-start: 0px !important;
+}
+
+.search-input .searchbar-input-container ion-icon {
+    display: none;
+}
+
+.searchbar-input::placeholder {
+    color: #a5a5a5;
+    font-size: 16px;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+}
+
+
+ion-toggle {
+    --handle-background: #919191;
+    --handle-background-checked: #FF994B;
+    --background-checked: #fff;
+    --background: rgba(216, 216, 216, 0.5);
+}
+
+ion-radio {
+    color: #5a5a5a;
+    --color-checked: #fff;
+    --border-style: none !important;
+    width: 12px;
+    height: 12px;
+    background: #5a5a5a;
+    border-radius: 50%;
+}
+
+.item-radio-checked ion-radio {
+    background: #fff;
+}
+
+ion-checkbox {
+    --background: #5A5A5A;
+    --background-checked: #fff;
+    --checkmark-color: #fff;
+    width: 12px;
+    height: 12px;
+    --border-width: 0px;
+}
+
+ion-content.mennu-content {
+    --background: #fff !important;
+
+}
+
+ion-content.mennu-content ion-list {
+    background: none;
+}
+
+
+ion-content.mennu-content ion-list ion-item {
+    --background: #1f1f1f;
+    --border-color: #95989A;
+    margin-left: 15px;
+    --background-activated:none;
+}
+
+ion-content.mennu-content ion-list ion-item ion-label {
+    color: #CECECE !important;
+    font-size: 16px !important;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.coach-name-wi-pic {
+    float: left;
+    width: 100%;
+    padding: 25px 0 30px 25px;
+    background: url(assets/imgs/bounx-icon-background.svg) #262626;
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position: left -40px top;
+}
+
+.game-select {
+    float: left;
+    width: 100%;
+    background: #262626;
+    padding: 25px 25px 5px;
+    color: #A8A8A8;
+    font-size: 10px;
+    font-family: 'RobotoRegular';
+    line-height: 17px;
+}
+
+
+ion-content.mennu-content ion-list {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+    max-height: calc(100% - 300px);
+    overflow-y: auto;
+}
+
+ion-content.mennu-content ion-list ion-item ion-icon{ display: none;}
+
+.toolbar-background {
+    --background: #222
+}
+
+.coach-name-wi-pic span {
+    color: #fff;
+    font-size: 22px;
+    font-family: "Khand" !important;
+    font-weight: 400 !important;
+    float: left;
+    line-height: 55px;
+    margin-left: 15px;
+}
+
+.coach-name-wi-pic img {
+    border: 4px solid #FF994B;
+    border-radius: 50%;
+    float: left;
+}
+
+.game-select button {
+    float: right;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button-btn-div-menu {
+    position: absolute;
+    bottom: 20px;
+    width: auto;
+    left: 32px;
+
+}
+
+.button-btn-div-menu a {
+    display: block;
+    margin: 5px 0;
+    color: #606060;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Khand" !important;
+    font-weight: 400 !important;
+}
+
+.button-btn-div-menu span {
+    display: block;
+    color: #919191;
+    font-size: 10px;
+    font-family: 'RobotoRegular';
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.main-menu-div {
+    float: left;
+    max-width: 255px;
+    background: #1F1F1F !important;
+    height: 100%;
+}
+
+
+.game-indicator {
+    float: left;
+    width: 49px !important;
+    padding: 15px 0px;
+}
+
+.game-indicator ion-list {
+    margin: 0;
+}
+
+.game-indicator ion-list ion-item {
+    margin: 0 !important;
+}
+
+.game-indicator ion-list ion-item button {
+    width: 35px;
+    height: 35px;
+}
+
+.game-indicator div {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.game-indicator div button {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding:4px;
+}
+
+.game-indicator div button span {
+    float: left;
+    width: 100%;
+    background: #606060;
+    border-radius: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-indicator div button span.active-game{ background: #FF994B;}
+
+ion-menu-button{ --color:#fff !important;}
+
+ion-input input{ border:1px solid #363636 !important;}
+
+.for-attach-file input[type="file"]{ opacity: 0;}
+
+
+ion-input{ --placeholder-opacity:1 !important;}
+
+ion-header ion-toolbar ion-icon{ font-size: 22px;}
+
+button{ outline:none;}

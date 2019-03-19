@@ -1,0 +1,72 @@
+ion-buttons ion-icon{ color:#fff;  }
+
+.close-icon{font-size: 30px;}
+
+ion-content {
+    --background: url(../../assets/imgs/background-login.png) #1f1f1f;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+
+ion-item.item-radio-checked{ --background: #FF994B}
+
+ion-item.item-radio-checked ion-label{ color:#fff;}
+
+ion-list {
+    background: none;
+}
+
+ion-item {
+    --background: #363636;
+    margin-bottom: 10px;
+    --border-radius: 5px;
+    color:#A5A5A5;
+    font-size: 16px;
+    font-family: "Khand";
+     --min-height: 50px;
+     --padding-start:0;
+     --padding-end:0;
+ 
+}
+
+ion-label{ margin:0;}
+
+ion-footer ion-toolbar {
+    background: #1f1f1f;
+    min-height: 70px;
+
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+ion-footer ion-toolbar button {
+    border: 1px solid #6DCCC1;
+    background: transparent;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+    margin: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+ion-input{    --background: #363636;
+    margin-bottom: 10px;
+    --border-radius: 5px;
+    --placeholder-color:#A5A5A5;
+    font-size: 16px;
+    font-family: "Khand";
+     font-weight: 500;
+     --min-height: 50px;
+     --padding-start:0;
+     --padding-end:0; border-radius: 5px; --padding-start:16px !important; color:#fff}

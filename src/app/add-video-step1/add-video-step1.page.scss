@@ -1,0 +1,130 @@
+ion-header ion-toolbar {
+    color: #fff;
+}
+
+.close-icon {
+    font-size: 30px;
+}
+
+ion-content {
+    --background: url(../../assets/imgs/background-login.png) #1f1f1f;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+
+.form-field {
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+    margin: 5px 0;
+    position: relative;
+
+}
+
+
+.form-field span {
+    float: right;
+    color: #5A5A5A;
+    font-size: 11px;
+    font-family: "Khand";
+    font-weight: 500;
+    margin-top: 5px;
+    position: relative;
+}
+
+
+
+ion-input {
+    background: #363636;
+    --border-radius: 5px;
+    --placeholder-color: #A5A5A5;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+    --padding-start: 16px !important;
+    --padding-end: 16px !important;
+    border-radius: 5px;
+    --placeholder-opacity: 1;
+
+
+}
+
+ion-input input {
+    border-radius: 5px;
+    border: 1px;
+}
+
+
+
+.form-field span.video-icon-show svg {
+    fill: #a5a5a5;
+}
+
+.form-field.for-attach-file span {
+    font-size: 16px;
+    color: #a5a5a5;
+    position: absolute;
+    left: 38px;
+    top: 8px;
+    z-index: 2;
+}
+
+.form-field span.video-icon-show {
+    position: absolute;
+    right: 35px;
+    z-index: 2;
+    top: 16px;
+    margin: 0;
+    left: inherit;
+}
+
+ion-footer ion-toolbar {
+    background: #1f1f1f;
+    min-height: 70px;
+
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+ion-footer ion-toolbar button {
+    border: 1px solid #5a5a5a;
+    background: transparent;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+    margin: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+
+.disabled {
+    opacity: 0.3;
+}
+
+ion-list {
+    float: left;
+    width: 100%;
+    padding: 0 20px 10px;
+    background: none;
+}
+
+ion-list ion-item {
+    --background: #363636;
+    --border-radius: 5px !important;
+    --min-height: 50px; color:#fff; font-size: 16px;  font-family: "Khand";
+    font-weight: 500; margin: 5px 0 
+}
+
+ion-item button{ background: none;padding:0;}

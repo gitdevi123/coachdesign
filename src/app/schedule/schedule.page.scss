@@ -1,0 +1,743 @@
+ion-segment-button {
+    color: #5a5a5a !important;
+    font-size: 9px !important;
+    text-transform: lowercase;
+    font-family: 'RobotoRegular';
+    border: none !important;
+}
+
+ion-footer ion-segment {
+    height: 46px;
+}
+
+ion-footer ion-segment ion-segment-button svg {
+    margin: 3px 0;
+    fill: #5a5a5a;
+}
+
+ion-footer ion-toolbar {
+    min-height: 50px;
+}
+
+ion-content {
+    --background: #363636 !important;
+}
+
+.segment-button-checked {
+    background: none;
+    color: #FF994B !important;
+}
+
+.segment-button-checked svg {
+    fill: #FF994B !important;
+}
+
+
+.date-time-cal-scroll[scrollx=true],
+date-time-cal-scroll[scrolly=true] {
+    position: relative;
+    overflow: hidden;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.fixed[scrollx=true] {
+    overflow-x: auto;
+}
+
+.fixed[scrolly=true] {
+    overflow-y: auto;
+}
+
+.date-time-cal-scroll ion-col {
+    text-align: center;
+}
+
+.date-time-cal-scroll ion-col span {
+    color: #5a5a5a;
+    font-size: 13px;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+}
+
+.date-time-cal-scroll ion-col {
+    color: #5a5a5a;
+    font-size: 25px;
+    font-family: "Khand" !important;
+    font-weight: 500 !important;
+    line-height: 20px;
+}
+
+.date-time-cal-scroll ion-col.active {
+    color: #fff;
+}
+
+.date-time-cal-scroll ion-col.active span {
+    color: #FF994B;
+}
+
+.date-time-cal {
+    background: #1f1f1f;
+    padding: 8px 10px;
+}
+
+.time-booking {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.time-booking-slot {
+    float: left;
+    width: 100%;
+    color: #cecece;
+    font-family: "Khand" !important;
+    font-weight: 400 !important;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+
+    height: 45px;
+}
+
+.time-booking-slot span {
+    float: left;
+    color: #606060;
+    font-size: 10px;
+    font-family: "Khand" !important;
+    font-weight: 400 !important;
+    line-height: 10px;
+}
+
+.time-booking-slot:after {
+    width: calc(100% - 40px);
+    position: absolute;
+    height: 1px;
+    background: #707070;
+    left: 40px;
+    content: "";
+    top: 7px;
+    box-shadow: none !important;
+}
+
+.time-booking ion-card {
+    float: left;
+    margin: 10px 0 0 85px;
+    min-height: 40px;
+    width: calc(100% - 85px);
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    font-size: 10px;
+    font-family: 'RobotoRegular';
+    z-index: 2;
+    position: absolute;
+}
+
+.plus-beacon {
+    background: url(../../assets/imgs/becon-this-slot-icon.svg)#fff;
+    color: #5a5a5a;
+    background-size: 11px;
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+}
+
+.coach-play-beacon {
+    background: #FF994B;
+    color: #fff;
+}
+
+.group-class-high-performance {
+    background:#E67219;
+    color: #fff;
+   overflow: visible;
+    position: relative;
+}
+
+.group-class-high-performance:before {
+    background: url(../../assets/imgs/group-class-icon.svg);
+   width:24px; height: 24px;
+    background-repeat: no-repeat;
+   left:-12px;
+    position: absolute; content: "";
+    background-size: 100%;
+}
+
+.time-booking ion-card.slotes-2 {
+    min-height: 85px;
+}
+
+
+
+.time-booking>div {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.coach-beacon-pending {
+    background: #6DCCC1;
+    color: #fff;
+}
+
+.booked-by-you {
+    background: url(../../assets/imgs/close-icon.svg) #5A5A5A;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-position: right 20px center;
+}
+
+.recurring-class-high-performance {
+    background: #E67219;
+    color: #fff; overflow: visible;
+}
+.recurring-class-high-performance:before {
+    background: url(../../assets/imgs/group-class-icon.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    left: -12px;
+    position: absolute;
+    content: "";
+    background-size: 100%;
+}
+
+.game-sel-box {
+    width: 100%;
+    background: #6DCCC1;
+    padding: 0 20px;
+    height: 40px;
+
+}
+
+.game-sel-box span {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'RobotoRegular';
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+
+.game-sel-box ion-button {
+    --background: none;
+    --padding-start: 0 !important;
+    --padding-end: 0 !important;
+    margin: 0;
+    height: 40px;
+}
+
+.button-solid.activated {
+    --background-activated: none !important;
+}
+
+.class-box-main {
+    width: 100%;
+}
+
+.class-box-main-header {
+    width: 100%;
+    padding: 0 20px;
+    background: #1F1F1F;
+}
+
+.class-box-main-header span {
+    color: #E67219;
+    font-size: 11px;
+    font-family: 'RobotoMedium';
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.class-box-main ion-button {
+    --background: none;
+    --padding-start: 0 !important;
+    --padding-end: 0 !important;
+    margin: 0;
+    height: 40px;
+}
+
+.class-box-main-content {
+    width: 100%;
+    padding: 20px 20px 8px;
+}
+
+ion-card {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    background: #fff;
+}
+
+.class-card-box {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.time-user {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+}
+
+.time-slot {
+    width: 100%;
+}
+
+.class-content-main {
+    width: 100%;
+}
+
+.btn-group-box {
+    height: 45px;
+    float: left;
+    width: 100%;
+}
+
+
+
+.btn-group-box button {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Khand";
+    font-weight: 600;
+    width: 50%;
+    padding: 0 20px;
+    height: 100%;
+    background: none;
+}
+
+.btn-group-box button:focus {
+    outline: none;
+}
+
+.class-content-main span {
+    float: left;
+    width: 100%;
+    color: #a5a5a5;
+    font-size: 10px;
+    font-family: 'RobotoRegular';
+    margin: 3px 0px;
+}
+
+.time-slot span {
+    color: #606060;
+    font-size: 23px;
+    font-family: "Khand";
+    font-weight: 500;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+
+
+span.game-icon {
+    position: relative;
+    top: 8px;
+}
+
+.day-confirm-box {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.day-confirm-box span {
+    background: #EAEAEA;
+    width: 30px;
+    height: 20px;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'RobotoRegular';
+    display: inline-flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1px;
+}
+
+.day-confirm-box span.active {
+    background: #E67219;
+}
+
+/*--GROUP CLASS----*/
+.group-class-box .btn-group-box {
+    background: url(../../assets/imgs/card-shadow.png)#FF994B;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.group-class-box .title {
+    color: #FF994B;
+}
+
+.group-class-box .time-user span {
+    color: #FF994B;
+    font-size: 11px;
+}
+
+/*--GROUP CLASS----*/
+
+/*--GROUP JUNIOR CLASS----*/
+.group-class-junior-box .btn-group-box {
+    background: url(../../assets/imgs/card-shadow.png)#E67219;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.group-class-junior-box .title {
+    color: #E67219;
+}
+
+.group-class-junior-box .time-user span {
+    color: #E67219;
+    font-size: 11px;
+}
+
+/*--GROUP JUNIOR CLASS----*/
+
+/*--PENDING CLASS----*/
+.pending-class-box .btn-group-box {
+    background: url(../../assets/imgs/card-shadow.png)#6DCCC1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pending-class-box .title {
+    color: #6DCCC1;
+}
+
+.pending-class-box .time-user span {
+    color: #6DCCC1;
+    font-size: 11px;
+}
+
+/*--PENDING CLASS----*/
+
+.second-box-div {
+    background: url(../../assets/imgs/background-login.png);
+    background-size: contain;
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: repeat;
+}
+
+.class-sample {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.second-box-div ion-list {
+    background: none;
+    margin-bottom: 0;
+}
+
+.second-box-div ion-item {
+    --background: #363636;
+    margin-bottom: 10px;
+    --border-radius: 5px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    --min-height: 50px !important;
+    color: #A5A5A5;
+    font-size: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+
+}
+
+.up-coming-class-box ion-item.active {
+    color: #fff;
+    font-size: 13px;
+    --background: #E67219;
+    font-family: 'RobotoRegular';
+}
+
+h3 {
+    width: 100%;
+    color: #fff;
+    font-family: 'RobotoRegular';
+    font-size: 11px;
+    margin: 12px 0 20px;
+    text-align: center;
+}
+
+
+.like-btn {
+    font-family: 'RobotoRegular';
+    font-size: 13px;
+    color: #E67219;
+}
+
+.group-class-head {
+
+    background: #E67219;
+
+}
+
+.head-box-classes {
+    float: left;
+    width: calc(100% - 10px);
+    height: 40px;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.group-class-main-box .class-box-main-content {
+    padding: 0;
+}
+
+.class-show-img {
+    width: 100%;
+    display: block;
+}
+
+
+.head-box-classes span:first-child {
+    height: 40px;
+    float: left;
+    line-height: 40px;
+
+}
+
+.class-box-main-content .time-slot span {
+    float: left;
+    width: 100%;
+}
+
+
+span.cat-type {
+
+    font-size: 13px !important;
+    font-family: 'RobotoRegular' !important;
+    font-weight: 500 !important;
+    margin: 3px 0;
+}
+
+span.dis-class {
+    color: #95989A !important;
+    font-size: 11px !important;
+    font-family: 'RobotoRegular' !important;
+    font-weight: 500 !important;
+    margin: 7px 0;
+    line-height: 20px;
+}
+
+.court-club-name {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.court-club-name span {
+    float: left;
+    width: 100%;
+    font-family: 'RobotoRegular' !important;
+    font-size: 11px;
+    color: #606060;
+    line-height: 20px;
+}
+
+.group-class-main-box ion-card {
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 10px;
+}
+
+.coach-list ion-item {
+    --min-height: 60px !important;
+    --background: #fff;
+}
+
+.coach-list ion-item div {
+    color: #212121;
+    font-size: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+    float: left;
+    width: auto;
+}
+
+.coach-list ion-item div span {
+    color: #919191;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'RobotoRegular' !important;
+    float: left;
+    width: 100%;
+}
+
+.coach-post {
+    color: #FF994B !important;
+}
+
+.coach-list ion-item img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    float: left;
+    margin-left: 10px;
+}
+
+.coach-id {
+    background: #FF994B;
+    color: #FFFFFF;
+    font-size: 8px;
+    font-family: 'RobotoRegular' !important;
+    position: absolute;
+    left: -25px;
+    height: 10px;
+    text-align: center;
+    top: 25px;
+    width: 60px;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.booker-id {
+    background: #6DCCC1;
+    color: #FFFFFF;
+    font-size: 8px;
+    font-family: 'RobotoRegular' !important;
+    position: absolute;
+    left: -25px;
+    height: 10px;
+    text-align: center;
+    top: 25px;
+    width: 60px;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.coach-inner-detail {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.second-box-div ion-item.day-dif-item {
+    --background: #fff !important;
+    box-shadow: none !important;
+    --padding-end: 0px !important;
+    --padding-start: 0px;
+    border-bottom: 1px solid #D8D8D8;
+    --min-height: 40px !important;
+    margin-bottom: 0;
+    margin: 0 7px;
+
+}
+
+
+
+ion-item.day-dif-item span:first-child {
+    color: #424242;
+    font-size: 10px;
+    font-family: 'RobotoRegular' !important;
+}
+
+ion-item.day-dif-item span:last-child {
+    color: #E67219;
+    font-size: 10px;
+    font-family: 'RobotoRegular' !important;
+    margin: 0;
+}
+
+.second-box-div ion-item.day-dif-item:last-child {
+    border-bottom: 0 !important
+}
+
+.footer-bar {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 40px;
+    border-radius: 0 0 5px 5px;
+    padding-left: 16px;
+    margin: 0 5px 20px;
+}
+
+.group-class {
+    background: #E67219;
+}
+
+.pending-class-head {
+    background: #6DCCC1;
+}
+
+.pending-defined-btn {
+    float: left;
+    width: calc(100% + 40px);
+    background: #6DCCC1;
+    color: #fff;
+    font-size: 11px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -20px;
+    margin-bottom: -20px;
+    padding-left: 20px !important;
+    margin-top: 20px;
+    font-family: 'RobotoRegular';
+    outline: none;
+}
+
+.coach-list.pending-list ion-item:last-child {
+    margin-bottom: 0;
+}
+
+.pending-class {
+    background: #6DCCC1;
+}
+
+ion-button.resend-btn {
+    --color: #fff;
+    --background-focused: #6DCCC1;
+    --border-radius: 5px;
+    --border-width: 1px;
+    --border-color: #FF994B;
+    --border-style: solid;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+    height: 50px;
+    --background: none;
+    bottom: 10px;
+    width: 100%;
+    margin: 0 !important;
+    min-height: 50px;
+
+    button {
+        background: none;
+
+    }
+}

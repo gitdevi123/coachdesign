@@ -1,0 +1,7 @@
+{
+  "name": "bounx-coach",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

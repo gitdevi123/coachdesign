@@ -1,0 +1,87 @@
+ion-content {
+    --background: url(../../assets/imgs/background-login.png) #1f1f1f;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+ion-item {
+    --background: #363636;
+    margin-bottom: 10px;
+    --border-radius: 5px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    --min-height: 50px !important;
+    color: #A5A5A5;
+    font-size: 16px;
+    font-family: "Khand";
+    font-weight: 500;
+
+
+}
+
+ion-footer {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+ion-list {
+    background: none;
+}
+
+ion-footer ion-toolbar {
+    background: #1f1f1f;
+    min-height: 70px;
+
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+ion-footer ion-toolbar button {
+    border: 1px solid #5a5a5a;
+    background: transparent;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Khand";
+    font-weight: 500;
+    margin: 0;
+    outline: none;
+}
+
+.input-ahead {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.input-ahead span {
+    position: absolute;
+    height: 50px;
+    right: 20px;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+ion-item.exp-div {
+    --min-height: 60px !important;
+}
+
+ion-item.exp-div ion-button {
+    --background: none;
+    --padding-end:0 !important;
+}
+
+ion-item.exp-div span {
+    color: #fff;
+}
+
+ion-item.exp-div span span {
+    color: #FF994B;
+    font-family: 'RobotoRegular';
+    font-size: 11px;
+    display: block;
+}

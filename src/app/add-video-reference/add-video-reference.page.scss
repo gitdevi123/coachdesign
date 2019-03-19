@@ -1,0 +1,118 @@
+ion-content {
+    --background: url(../../assets/imgs/background-login.png) #1f1f1f;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.segment-button-checked {
+    background: #FF994B;
+    color: #000;
+    border: none;
+    height: 30px;
+    min-height: 30px !important;
+}
+
+ion-segment {
+    height: 30px;
+    background: #1F1F1F;
+    border-radius: 5px;
+
+}
+
+.segment-button-checked:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.segment-button-checked:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+ion-segment-button {
+    color: #5A5A5A;
+    font-size: 18px;
+    font-family: 'DIN Pro Condensed Medium';
+    border:0;
+}
+
+
+ion-segment-button ion-label {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+ion-content {
+    --background: url(../../assets/imgs/background-login.png) #1f1f1f;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+
+ion-item.item-radio-checked{ --background: #FF994B}
+
+ion-item.item-radio-checked ion-label span{ color:#fff;}
+
+ion-list {
+    background: none;
+}
+
+ion-item {
+    --background: #363636;
+    margin-bottom: 10px;
+    --border-radius: 5px;
+  
+     --min-height: 50px;
+     --max-height: 50px;
+     --padding-start: 0;
+     height: 50px;
+ 
+}
+
+ion-label{ margin:0;    display: flex !important;
+    align-items: center;}
+
+ion-label img{ height: 100%}
+
+ion-label span{  color:#A5A5A5;
+    font-size: 16px;
+    font-family: "Khand"; font-weight: 500; line-height: 16px; margin-left:20px;}
+
+    ion-footer ion-toolbar {
+        background: #1f1f1f;
+        min-height: 70px;
+    
+        padding: 0 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    
+    ion-footer ion-toolbar button {
+        border: 1px solid #5a5a5a;
+        background: transparent;
+        height: 50px;
+        border-radius: 5px;
+        width: 100%;
+        color: #fff;
+        font-size: 25px;
+        font-family: "Khand";
+        font-weight: 500;
+        margin: 0;
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .disabled {
+        opacity: 0.3;
+    }
+
+    ion-header ion-toolbar {
+        color: #fff;
+    }
+    
+    .close-icon {
+        font-size: 30px;
+    }

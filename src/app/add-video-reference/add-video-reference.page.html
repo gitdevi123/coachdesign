@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-icon name="arrow-back"></ion-icon>
+        </ion-buttons>
+    <ion-title>Add Video Reference</ion-title>
+    <ion-buttons class="close-icon" slot="end">
+        <ion-icon name="close"></ion-icon>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-segment (ionChange)="segmentChanged($event)">
+        <ion-segment-button value="resource">
+          <ion-label>RESOURCE</ion-label>
+        </ion-segment-button>
+        <ion-segment-button value="myvideos">
+          <ion-label>MY VIDEOS</ion-label>
+        </ion-segment-button>
+      </ion-segment>
+<div margin-top>
+  <div id="resource">
+      <ion-radio-group>   
+  
+          <ion-list lines="none">
+                 
+        
+        
+                <ion-item>
+                  <ion-label text-left>
+                    <img src="assets/imgs/video1.png"/>
+                      <span>Core Basics 01</span></ion-label>
+                  <ion-radio mode="ios" slot="end"></ion-radio>
+                </ion-item>
+                <ion-item>
+                    <ion-label text-left>
+                      <img src="assets/imgs/video2.png"/>
+                        <span>Core Basics 02</span></ion-label>
+                    <ion-radio mode="ios" slot="end"></ion-radio>
+                  </ion-item>
+                  <ion-item>
+                      <ion-label text-left>
+                        <img src="assets/imgs/video3.png"/>
+                          <span>Advanced Techniques</span></ion-label>
+                      <ion-radio mode="ios" slot="end"></ion-radio>
+                    </ion-item>
+                    <ion-item>
+                        <ion-label text-left>
+                          <img src="assets/imgs/video4.png"/>
+                            <span>Impossible Techniques</span></ion-label>
+                        <ion-radio mode="ios" slot="end"></ion-radio>
+                      </ion-item>
+
+                </ion-list>
+
+                </ion-radio-group>
+              </div>
+              </div>
+</ion-content>
+
+
+<ion-footer>
+    <ion-toolbar>
+      <button class="disabled">SELECT VIDEO</button>
+    </ion-toolbar>
+  </ion-footer>
